@@ -1,0 +1,9 @@
+parsers: # array
+  - url: https://rss.teacat001.xyz/api/v1/client/subscribe?token=dfe91d10eea4027ba13e35d2553c52fa
+    yaml:
+      prepend-rules:
+        - DOMAIN-SUFFIX,weibo.com,日本1
+  - url: https://mojie.nl/api/v1/client/subscribe?token=0b600fb8055f995132730a34b671ae83
+    yaml:
+      prepend-rules:
+        - DOMAIN-SUFFIX,weibo.com,日本1
